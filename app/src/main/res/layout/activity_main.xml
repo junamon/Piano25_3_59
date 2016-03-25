@@ -29,56 +29,65 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:weightSum="1">
 
             <Button
                 android:layout_width="70dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button"
-                android:background="#71c5f8cd" />
+                android:background="#71c5f8cd"
+                android:layout_weight="0.12" />
 
             <Button
                 android:layout_width="70dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button2"
                 android:allowUndo="false"
-                android:background="#8babe9b5" />
+                android:background="#8babe9b5"
+                android:layout_weight="0.12" />
 
             <Button
                 android:layout_width="70dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button3"
-                android:background="#b185f299" />
+                android:background="#b185f299"
+                android:layout_weight="0.12" />
 
             <Button
                 android:layout_width="70dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button4"
-                android:background="#da85fb89" />
+                android:background="#ce85fb89"
+                android:layout_weight="0.12" />
 
             <Button
                 android:layout_width="70dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button5"
-                android:background="#d510c316" />
+                android:background="#d510c316"
+                android:layout_weight="0.12" />
 
             <Button
                 android:layout_width="70dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button6"
-                android:background="#da199003" />
+                android:background="#da199003"
+                android:layout_weight="0.12" />
 
             <Button
                 android:layout_width="70dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button7"
-                android:background="#e3077903" />
+                android:background="#e3077903"
+                android:layout_weight="0.12" />
 
             <Button
                 android:layout_width="70dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button8"
-                android:background="#de013a04" />
+                android:background="#d4013a04"
+                android:layout_weight="0.12" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
