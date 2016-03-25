@@ -7,6 +7,42 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ice_pbru.duangsang.junamon.piano.MainActivity">
+    tools:context="ice_pbru.duangsang.junamon.piano.MainActivity"
+    android:background="@drawable/bg666">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:id="@+id/textView"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textColor="#d1611c"
+            android:textStyle="bold"
+            android:background="#4aa7f3e3" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button"
+                android:background="#7f0d3add" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button2"
+                android:allowUndo="false"
+                android:background="#95abe6" />
+        </LinearLayout>
+    </LinearLayout>
 </RelativeLayout>
